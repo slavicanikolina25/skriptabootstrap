@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="hr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bilješke s predavanja</title>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <style>
+        body { background-color: #f8f9fa; }
+        .sidebar { min-height: 100vh; }
+        .sidebar a { text-decoration: none; color: #333; display:block; padding:4px 0; }
+        .sidebar a:hover { color:#0d6efd; }
+        .card { margin-bottom: 25px; }
+        img { max-width:100%; height:auto; margin:10px 0; }
+        pre { background:#eee; padding:10px; }
+    </style>
+</head>
+
+<body>
+
+<div class="container-fluid">
+<div class="row">
+
+<!-- SIDEBAR -->
+<div class="col-12 col-sm-3 bg-light p-4 sidebar">
+    <h4 class="text-center mb-4">📚 SADRŽAJ</h4>
+    <ul class="list-unstyled">
+        <li><a href="#html">Uvod u HTML</a></li>
+        <li><a href="#boxmodel">CSS Box Model</a></li>
+        <li><a href="#pozadina">Pozadinska grafika</a></li>
+        <li><a href="#gradients">Opacity & Gradients</a></li>
+        <li><a href="#pozicije">CSS Pozicije</a></li>
+        <li><a href="#shadow">Shadow Box</a></li>
+        <li><a href="#radius">Zaobljeni kutovi</a></li>
+        <li><a href="#flexbox">Flexbox</a></li>
+        <li><a href="#boxsizing">Box Sizing</a></li>
+        <li><a href="#jedinice">CSS Jedinice</a></li>
+        <li><a href="#grid">CSS Grid</a></li>
+    </ul>
+</div>
+
+<!-- MAIN CONTENT -->
+<div class="col-12 col-sm-9 p-4">
+
+<h1 class="text-center text-nowrap mb-5">📑 Bilješke s predavanja</h1>
+
+<!-- LEKCIJA 1 -->
+<div class="card">
+<div class="card-body">
+<h2 id="html">🎯 Uvod u HTML - Struktura web stranice</h2>
+<p>HTML (HyperText Markup Language) je standardni jezik za označavanje koji se koristi za kreiranje web stranica. 
+HTML opisuje strukturu web stranice koristeći niz elemenata.</p>
+
+<h3>Osnovna HTML struktura</h3>
+<pre>
+&lt;!DOCTYPE html&gt;
+&lt;html lang="hr"&gt;
+&lt;head&gt;
+&lt;meta charset="UTF-8"&gt;
+&lt;title&gt;Moja prva stranica&lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;
+&lt;h1&gt;Dobrodošli!&lt;/h1&gt;
+&lt;p&gt;Ovo je moj prvi HTML dokument.&lt;/p&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+</pre>
+
+<ul>
+<li><b>&lt;html&gt;</b> - glavni kontejner</li>
+<li><b>&lt;head&gt;</b> - meta informacije</li>
+<li><b>&lt;body&gt;</b> - vidljivi sadržaj</li>
+<li><b>&lt;h1&gt;-&lt;h6&gt;</b> - naslovi</li>
+<li><b>&lt;p&gt;</b> - paragraf</li>
+</ul>
+</div>
+</div>
+
+<!-- LEKCIJA 2 -->
+<div class="card">
+<div class="card-body">
+<h2 id="boxmodel">🎯 CSS Box Model</h2>
+<p>Box model definira kako margin, border, padding i content rade zajedno.</p>
+<ul>
+<li><b>Content</b> – sadržaj</li>
+<li><b>Padding</b> – unutarnji razmak</li>
+<li><b>Border</b> – obrub</li>
+<li><b>Margin</b> – vanjski razmak</li>
+</ul>
+</div>
+</div>
+
+<!-- LEKCIJA 3 -->
+<div class="card">
+<div class="card-body">
+<h2 id="pozadina">🎯 Pozadinska grafika</h2>
+<ul>
+<li>background-color</li>
+<li>background-image</li>
+<li>background-repeat</li>
+<li>background-position</li>
+<li>background-attachment</li>
+</ul>
+</div>
+</div>
+
+<!-- LEKCIJA 4 -->
+<div class="card">
+<div class="card-body">
+<h2 id="gradients">🎯 Opacity & Gradients</h2>
+<p>Opacity određuje transparentnost (0.0 - 1.0).</p>
+<p>Linear i radial gradients omogućuju prijelaz boja.</p>
+<img src="image.png">
+<img src="image2.png">
+</div>
+</div>
+
+<!-- LEKCIJA 5 -->
+<div class="card">
+<div class="card-body">
+<h2 id="pozicije">🎯 CSS Pozicije</h2>
+<ul>
+<li>static</li>
+<li>relative</li>
+<li>absolute</li>
+<li>fixed</li>
+<li>sticky</li>
+</ul>
+<img src="primjer1.png"><br>
+<img src="primjer2.png"><br>
+<img src="primjer3.png"><br>
+<img src="primjer4.png"><br>
+<img src="primjer5.png"><br>
+<img src="primjer6.png"><br>
+</div>
+</div>
+
+<!-- LEKCIJA 6 -->
+<div class="card">
+<div class="card-body">
+<h2 id="shadow">🎯 CSS Shadow Box</h2>
+<img src="sjena1.png"><br>
+<img src="primjersjena1.png"><br>
+<img src="primjersjena2.png"><br>
+<img src="sjena2.png"><br>
+<img src="primjersjena3.png"><br>
+<img src="sjena3.png"><br>
+<img src="primjersjena4.png"><br>
+<img src="sjena4.png"><br>
+<img src="primjersjena5.png"><br>
+<img src="sjena5.png"><br>
+<img src="primjersjena6.png"><br>
+<img src="sjena6.png"><br>
+<img src="primjersjena7.png"><br>
+<img src="sjena7.png"><br>
+</div>
+</div>
+
+<!-- LEKCIJA 7 -->
+<div class="card">
+<div class="card-body">
+<h2 id="radius">🎯 Zaobljeni kutovi</h2>
+<img src="zaobljenikut1.png"><br>
+<img src="zaobljenikut2.png"><br>
+<img src="kut2.png"><br>
+<img src="zaobljenikut3.png"><br>
+<img src="kut3.png"><br>
+<img src="zaobljenikut4.png"><br>
+<img src="kut4.png"><br>
+<img src="zaobljenikut5.png"><br>
+<img src="kut5.png"><br>
+</div>
+</div>
+
+<!-- LEKCIJA 8 -->
+<div class="card">
+<div class="card-body">
+<h2 id="flexbox">🎯 CSS Flexbox</h2>
+<pre>
+display:flex;
+flex-direction:row;
+justify-content:center;
+align-items:center;
+</pre>
+</div>
+</div>
+
+<!-- LEKCIJA 9 -->
+<div class="card">
+<div class="card-body">
+<h2 id="boxsizing">🎯 CSS Box Sizing</h2>
+<img src="sizing1.png"><br>
+<img src="sizingkod.png"><br>
+<img src="sizing2.png"><br>
+<img src="sizingkod2.png"><br>
+<img src="sizingkod3.png"><br>
+</div>
+</div>
+
+<!-- LEKCIJA 10 -->
+<div class="card">
+<div class="card-body">
+<h2 id="jedinice">🎯 CSS Jedinice</h2>
+<img src="jedinice1.png"><br>
+<img src="jedinice2.png"><br>
+<img src="jedinice3.png"><br>
+<img src="jedinice4.png"><br>
+</div>
+</div>
+
+<!-- LEKCIJA 11 -->
+<div class="card">
+<div class="card-body">
+<h2 id="grid">🎯 CSS Grid</h2>
+<img src="gridkod1.png"><br>
+<img src="gridkod11.png"><br>
+<img src="grid1.png"><br>
+<img src="gridkod2.png"><br>
+<img src="gridkod22.png"><br>
+<img src="grid2.png"><br>
+<img src="gridkod3.png"><br>
+<img src="gridkod33.png"><br>
+</div>
+</div>
+
+</div>
+</div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
